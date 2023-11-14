@@ -48,11 +48,11 @@ This CI configuration defines 2 jobs: `build` and `deploy`, with support for art
 
 ## Exporting
 
-In the `src/gitlab-ci.ncl` and `src/github-actions.ncl` change the name of the config (first line) to point to the desired CI config.
+In the `project.ncl` change the name of the example to point to the desired CI configuration.
 
 ```
 # Gitlab CI
-nickel export -f src/gitlab-ci.ncl --format yaml
+nickel export -f tests/gitlab-ci.ncl --format yaml
 # Github Actions
-nickel export -f src/github-actions.ncl --format yaml
+nickel export -f tests/github-actions.ncl --format yaml
 ```

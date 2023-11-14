@@ -1,4 +1,4 @@
-let config = import "../examples/simple2.ncl" in
+fun config =>
 
 let Contract = import "ci-contract.ncl" in
 
