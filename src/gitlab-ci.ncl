@@ -1,4 +1,4 @@
-let config = import "../examples/simple_gitlab.ncl" in
+let config = import "../examples/simple2.ncl" in
 
 let Contract = import "ci-contract.ncl" in
 
